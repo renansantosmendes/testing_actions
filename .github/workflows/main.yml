@@ -1,7 +1,7 @@
 name: Python package
 
 on:
-  push:
+#  push:
   schedule:
       - cron:  '*/2 * * * *'    # At every 15th minute
 jobs:
